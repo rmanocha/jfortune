@@ -1,0 +1,3 @@
+All you have to do is run the included install-fortune.sh script as root or copy the .class files to a directory of your preference,edit the jfortune file included and put it in a bin directory to which you have access.
+then run the program as:
+jfortune (filename)

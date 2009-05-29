@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -lt 1 ];then
+	echo "You did not specify an input file.I am quitting."
+	exit 1
+fi
+java -jar /usr/share/jfortune/jfortune.jar $@
+exit 0
